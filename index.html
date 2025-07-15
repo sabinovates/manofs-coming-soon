@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mano Financial Services - Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts: Open Sans -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <!-- Sunny Animated Background and Clouds -->
+    <div class="sunny-bg" aria-hidden="true">
+      <div class="sun-orb"></div>
+      <div class="sun-orb"></div>
+      <div class="sun-orb"></div>
+      <div class="sun-orb"></div>
+      <div class="sun-orb"></div>
+      <!-- Clouds will be injected here by JS -->
+    </div>
+
+    <main class="coming-soon-container" role="main">
+      <!-- Placeholder Logo -->
+      <div class="logo-placeholder" aria-label="Placeholder Logo">
+        <span class="logo-text">MFS</span>
+      </div>
+      <!-- Title -->
+      <h1>Mano Financial Services</h1>
+      <!-- Countdown Timer -->
+      <section
+        class="countdown"
+        id="countdown"
+        aria-label="Countdown to launch"
+      ></section>
+      <!-- Weather Widget -->
+      <section
+        class="weather-widget"
+        id="weather-widget"
+        aria-label="Current Liberia Weather"
+      >
+        <svg
+          class="weather-icon"
+          id="weather-icon"
+          viewBox="0 0 48 48"
+          fill="none"
+        ></svg>
+        <div class="weather-details">
+          <span class="weather-temp" id="weather-temp">--°C</span>
+          <span class="weather-city">Liberia</span>
+        </div>
+      </section>
+      <!-- Message -->
+      <div class="launch-message">Stay tuned! Our full site launches soon.</div>
+    </main>
+
+    <footer class="footer">
+      &copy; 2025 Mano Financial Services &mdash; All rights reserved
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
